@@ -79,5 +79,6 @@ void loop() {
       Serial.println("Error on sending GET: " + http.errorToString(httpResponseCode));
     }
     http.end();
+    //สวัสดี
   }
 }
